@@ -1,0 +1,13 @@
+{
+  "name": "mission-projektfrieden",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Deutschsprachiges Lernspiel zum Konfliktmanagement im Projektmanagement, ohne externe Abhängigkeiten.",
+  "scripts": {
+    "start": "node server.cjs",
+    "dev": "node server.cjs --host 0.0.0.0",
+    "test": "node --test tests/*.test.cjs",
+    "check": "node --check src/content.js && node --check src/engine.js && node --check src/app.js && node --check server.cjs"
+  },
+  "engines": { "node": ">=20" }
+}
